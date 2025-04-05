@@ -22,8 +22,8 @@ class GeneratorABC(ABC):
         set('asdfghjkl '),  # level 0
         set('asdfghjkl qwertyuiop'),  # level 1
         set('asdfghjkl qwertyuiop zxcvbnm'),  # level 2
-        set('asdfghjkl qwertyuiop zxcvbnm ASDFGHJKL QWERTYUIOP ZXCVBNM'),  # level 3
-        set('asdfghjkl qwertyuiop zxcvbnm ASDFGHJKL QWERTYUIOP ZXCVBNM 1234567890'),  # level 4
+        set('asdfghjkl qwertyuiop zxcvbnm ASDFGHJKL QWERTYUIOP ZXCVBNM .,'),  # level 3
+        set('asdfghjkl qwertyuiop zxcvbnm ASDFGHJKL QWERTYUIOP ZXCVBNM 1234567890 .,'),  # level 4
         set('asdfghjkl qwertyuiop zxcvbnm ASDFGHJKL QWERTYUIOP ZXCVBNM 1234567890 `~!@#$%^&*()-_=+[]{}\\|;:",<.>/?' + "'")  # level 5
     ]
 
